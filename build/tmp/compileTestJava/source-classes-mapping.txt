@@ -1,2 +1,8 @@
 com/jmao/book/springboot/HelloControllerTest.java
  com.jmao.book.springboot.HelloControllerTest
+com/jmao/book/springboot/domain/posts/PostRepositoryTest.java
+ com.jmao.book.springboot.domain.posts.PostRepositoryTest
+com/jmao/book/springboot/dto/HelloResponseDtoTest.java
+ com.jmao.book.springboot.dto.HelloResponseDtoTest
+com/jmao/book/springboot/web/PostApiControllerTest.java
+ com.jmao.book.springboot.web.PostApiControllerTest
