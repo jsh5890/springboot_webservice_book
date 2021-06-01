@@ -43,4 +43,6 @@ public class PostRepositoryTest {
         assertThat(posts.getTitle()).isEqualTo(title);
         assertThat(posts.getContent()).isEqualTo(content);
     }
+
+
 }
