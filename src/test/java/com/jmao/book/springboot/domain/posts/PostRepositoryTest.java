@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class PostRepositoryTest {
+public class PostRepositoryTest{
 
     @Autowired
     PostsRepository postsRepository;
@@ -43,6 +43,25 @@ public class PostRepositoryTest {
         assertThat(posts.getTitle()).isEqualTo(title);
         assertThat(posts.getContent()).isEqualTo(content);
     }
+    /*
+    @Test
+    public void BaseTimeEntity_등록(){
+        LocalDateTime now = LocalDateTime.of(2021,6,4,0,0,0);
+        postsRepository.save(Posts.builder()
+        .title("title")
+        .content("content")
+        .author("author")
+        .build());
 
+        List<Posts> postsList = postsRepository.findAll();
 
+        Posts posts = postsList.get(0);
+
+        System.out.println("createDate : " + posts.getCreatedDate());
+        System.out.println("modifiedDate : " + posts.getModifiedDate());
+
+        assertThat(posts.getCreatedDate()).isAfter(now);
+        assertThat(posts.getModifiedDate()).isAfter(now);
+    }
+    */
 }

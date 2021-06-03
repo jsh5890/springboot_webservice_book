@@ -1,7 +1,7 @@
 com/jmao/book/springboot/web/dto/HelloResponseDto.java
  com.jmao.book.springboot.web.dto.HelloResponseDto
-com/jmao/book/springboot/Application.java
- com.jmao.book.springboot.Application
+com/jmao/book/springboot/web/PostsApiController.java
+ com.jmao.book.springboot.web.PostsApiController
 com/jmao/book/springboot/web/HelloController.java
  com.jmao.book.springboot.web.HelloController
 com/jmao/book/springboot/domain/posts/Posts.java
@@ -19,5 +19,9 @@ com/jmao/book/springboot/service/posts/PostsService.java
 com/jmao/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.jmao.book.springboot.web.dto.PostsUpdateRequestDto
  com.jmao.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/jmao/book/springboot/web/PostsApiController.java
- com.jmao.book.springboot.web.PostsApiController
+com/jmao/book/springboot/domain/BaseTimeEntity.java
+ com.jmao.book.springboot.domain.BaseTimeEntity
+com/jmao/book/springboot/Application.java
+ com.jmao.book.springboot.Application
+com/jmao/book/springboot/web/IndexController.java
+ com.jmao.book.springboot.web.IndexController
