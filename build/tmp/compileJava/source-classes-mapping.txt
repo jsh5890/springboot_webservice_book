@@ -20,8 +20,8 @@ com/jmao/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.jmao.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 com/jmao/book/springboot/domain/user/UserRepository.java
  com.jmao.book.springboot.domain.user.UserRepository
-com/jmao/book/springboot/Application.java
- com.jmao.book.springboot.Application
+com/jmao/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.jmao.book.springboot.config.auth.CustomOAuth2UserService
 com/jmao/book/springboot/web/PostsApiController.java
  com.jmao.book.springboot.web.PostsApiController
 com/jmao/book/springboot/domain/BaseTimeEntity.java
@@ -47,5 +47,7 @@ com/jmao/book/springboot/domain/posts/PostsRepository.java
 com/jmao/book/springboot/config/auth/dto/OAuthAttributes.java
  com.jmao.book.springboot.config.auth.dto.OAuthAttributes
  com.jmao.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
-com/jmao/book/springboot/config/auth/CustomOAuth2UserService.java
- com.jmao.book.springboot.config.auth.CustomOAuth2UserService
+com/jmao/book/springboot/config/JpaConfig.java
+ com.jmao.book.springboot.config.JpaConfig
+com/jmao/book/springboot/Application.java
+ com.jmao.book.springboot.Application
